@@ -1,0 +1,4 @@
+aiohttp
+fpl
+python-dotenv
+schedule
