@@ -1,0 +1,6 @@
+aiohttp
+fpl
+python-dotenv
+schedule
+smtplib
+email

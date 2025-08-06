@@ -1,0 +1,8 @@
+services:
+  - type: cron
+    name: fpl-agent-weekly
+    schedule: "0 12 * * 5"  # كل جمعة 12:00 ظهرًا UTC
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
